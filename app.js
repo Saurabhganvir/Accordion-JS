@@ -1,6 +1,6 @@
 //variables
 
-const accordian = document.getElementsByClassName('question');
+const accordian = document.getElementsByClassName('content-container');
 console.log(accordian);
 
 for(i =0; i<accordian.length; i++){
