@@ -1,0 +1,12 @@
+//variables
+
+const accordian = document.getElementsByClassName('question');
+console.log(accordian);
+
+for(i =0; i<accordian.length; i++){
+    accordian[i].addEventListener('click', function () {
+        this.classList.toggle('active');
+        console.log(this)
+    })
+};
+
